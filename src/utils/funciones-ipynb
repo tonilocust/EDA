@@ -1,0 +1,6 @@
+def hypotesis_check(p_value):
+    alpha=0.05
+    if p < alpha:
+        print("Rechazar la hipótesis nula: la muestra no parece seguir una distribución normal")
+    else:
+        print("No se puede rechazar la hipótesis nula: la muestra parece seguir una distribución normal")
